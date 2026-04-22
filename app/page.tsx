@@ -566,7 +566,7 @@ export default function Home() {
             <div className="about-sep" />
             <div className="about-item">
               <div className="about-icon">🏅</div>
-              <h3>Ribbons &amp; Cash</h3>
+              <h3>Prizes</h3>
               <p>Ribbons for 1st, 2nd, 3rd &amp; Honourable Mention in every class. Prize money from $2 up to $15, plus special sponsor awards.</p>
             </div>
             <div className="about-sep" />
