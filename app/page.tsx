@@ -10,13 +10,7 @@ interface Division   { id: string; title: string; color: string; note?: string; 
 
 /* ─────────────────────────── DATA ─────────────────────────── */
 
-const schedule = [
-  {
-    day: "Friday, June 12",
-    events: [
-      { time: "7:00 – 9:00 pm", desc: "Room Set-Up · Drop off entries in the Minto Room kitchen (exceptional cases only)" },
-    ],
-  },
+const schedule = [q
   {
     day: "Saturday, June 13",
     events: [
@@ -553,7 +547,7 @@ export default function Home() {
           <div className="hero-venue">Richcraft Recreation Complex – Kanata<br />4101 Innovation Drive, Kanata, ON</div>
         </div>
         <div className="hero-cta">
-          <a href="#schedule" className="btn btn-primary">View Schedule</a>
+          <a href="https://2026-flower-show.vercel.app/2026_show_schedule.pdf" className="btn btn-primary">View Schedule</a>
           <a href="#divisions" className="btn btn-outline">Browse Classes</a>
         </div>
       </div>
@@ -588,7 +582,7 @@ export default function Home() {
       {/* SCHEDULE */}
       <section className="schedule-section" id="schedule">
         <div className="container">
-          <div className="section-label" style={{ color: "var(--gold)" }}>June 12–13, 2026</div>
+          <div className="section-label" style={{ color: "var(--gold)" }}>June 13, 2026</div>
           <div className="section-title section-title-light">Schedule of Events</div>
           {schedule.map((day) => (
             <div className="schedule-day" key={day.day}>
