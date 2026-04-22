@@ -10,7 +10,7 @@ interface Division   { id: string; title: string; color: string; note?: string; 
 
 /* ─────────────────────────── DATA ─────────────────────────── */
 
-const schedule = [q
+const schedule = [
   {
     day: "Saturday, June 13",
     events: [
