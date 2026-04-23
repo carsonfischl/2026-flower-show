@@ -525,7 +525,7 @@ export default function Home() {
       <nav>
         <span className="nav-logo">🌸 OVG Flower Show 2026</span>
         <ul className="nav-links">
-          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="https://2026-flower-show.vercel.app/2026_show_schedule.pdf">Schedule</a></li>
           <li><a href="#divisions">Classes</a></li>
           <li><a href="#prizes">Prizes</a></li>
           <li><a href="#contact">Contact</a></li>
