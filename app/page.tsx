@@ -277,7 +277,7 @@ const prizes = [
 
 const sponsors = [
   { name: "Atletico Ottawa", url: "https://www.cplsoccer.com/atleticoottawa" },
-  { name: "Artistic Landscape Designs LTD", url: null },
+  { name: "Artistic Landscape Designs LTD", url: "https://artisticlandscapedesigns.com/" },
   { name: "Black Sheep Perennials", url: "https://blacksheepperennials.com" },
   { name: "Canadian Tire Kanata", url: "https://www.canadiantire.ca" },
   { name: "CF Solutions, Ottawa", url: null },
